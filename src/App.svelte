@@ -1,6 +1,6 @@
 <script>
   import { onMount } from 'svelte';
-
+ import { link } from 'svelte-spa-router/Router.svelte';
   let characters = [];
   let loading = true;
   let error = null;
@@ -65,3 +65,7 @@
     {/each}
   </div>
 {/if}
+<!-- Botón con estilo Bootstrap que navega a la página de Contactos -->
+<a use:link href="/Contactos" class="btn btn-primary">
+  Ir a Contactos
+</a>

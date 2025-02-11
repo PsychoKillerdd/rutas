@@ -1,1 +1,0 @@
-<h1>Bienvenidos a svelte</h1>
